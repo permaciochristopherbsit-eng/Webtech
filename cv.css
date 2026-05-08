@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex; 
+    height: 100vh;
+  }
+
+  .left {
+    flex: 1; 
+    background-color: #3498db;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .right {
+    flex: 2; 
+    padding: 40px;
+    background-color: white;
+  }
+
+  h1 {
+    margin: 2;
+  } 
+
+  img {
+    margin-left: 100px;
+    height: 250px;
+    width: 250px;
+  }
+
+  hr{
+    border: 2px solid black;
+  }
+
+  p {
+    margin: 0;
+  }
